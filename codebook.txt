@@ -3,3 +3,15 @@ Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
 Variables:
 subject - The ID of the test subject
 activity - The type of activity performed when the corresponding measurements were taken
+
+What R script does :
+
+    Reading in the files and merging the training and the test sets to create one data set.
+    Extracting only the measurements on the mean and standard deviation for each measurement:
+    Using descriptive activity names to name the activities in the data set
+    Appropriately labeling the data set with descriptive variable names(done during the code, not in particular parts)
+    Creating a second, independent tidy data set with the average of each variable for each activity and each subject: Making and Writing a second tidy dataset.
+
+finaldataset: output of R script: download R script and execute it in R studio.
+
+variables: *x_train, x_test,y_train, y_test, subject_train and subject_test
